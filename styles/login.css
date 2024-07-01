@@ -1,0 +1,180 @@
+@import url('https://cdn-uicons.flaticon.com/2.4.2/uicons-regular-straight/css/uicons-regular-straight.css');
+*{
+    margin:0;
+    padding:0;
+
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.barlow-condensed-extralight {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  
+.container{
+width: 110vh;
+height: 60vh;
+border-radius:15px;
+display: flex;
+border: 2px solid;
+background-color:#ffffff;
+border-color:#4D1954;
+}
+
+body{
+    height: 97vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding:10px;
+    background: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+
+}
+
+.login-side{
+    width: 50%;
+    background: rgb(75,40,70);
+    background: linear-gradient(0deg, rgba(75,40,70,1) 0%, rgba(93,12,113,1) 100%);
+    border-radius: 14px 0px 0px 14px;
+
+}
+
+.form-side{
+    width: 50%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+}
+form{
+    color: rgba(93,12,113,1);
+
+}
+form h1{
+    margin:0;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    padding: 15px;
+}
+form h4{
+    font-family: "Barlow Condensed", sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color:#4D1954;
+}
+.input{
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    display: block;
+}
+.input input[type=text] {
+    width: 70%; 
+    height: 25px;
+    text-decoration: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom-color: rgb(114, 114, 114);
+}
+input[type=text] {
+    width: 61%; 
+    text-decoration: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom-color: rgb(114, 114, 114);
+}
+input[type=text]:focus{
+    outline:none;
+    border-bottom-color: rgba(93,12,113,1);
+    transition: 10ms;
+    justify-content: center;
+    
+}
+.input-passsword label{
+    position: relative;
+    right: 110px;
+    font-size: 18px;
+    font-family: "Barlow Condensed", sans-serif;
+}
+input[type=password]{
+    width: 61%;
+    text-decoration: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom-color: rgb(114, 114, 114);
+}
+input[type=password]:focus{
+    outline:none;
+    border-bottom-color: rgba(93,12,113,1);
+    transition: 10ms;
+    }
+.input label{
+    position: relative;
+    font-size: 18px;
+    font-family: "Barlow Condensed", sans-serif;
+    right: 75px;
+}
+.content-container{
+    margin-top:10%;
+}
+i .fi .fi-rr-eye{
+    width: 1px;
+}
+
+.input-password input[type=text] {
+    width: 70%; 
+}
+i:hover{
+    cursor: pointer;
+}
+
+.input-password{
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    display: block;
+}
+.login-button{
+    margin-top: 30px;
+    
+}
+.login-button button{
+    width: 70%;
+    height: 40px;
+    background-color: transparent;
+    border-radius:15px;
+    border: 2px solid;
+    border-color:#4D1954;
+    transition: 0.2s;
+
+}
+.login-button button:hover{
+cursor: pointer;
+    width: 74%;
+    height: 45px;
+    transition: 0.2s;
+
+}
+.new-user{
+    margin-top: 20px;
+}
+.new-user h4{
+    font-size:20px;
+}
